@@ -5,7 +5,7 @@ import dotenv from 'dotenv'
 const PORT = 6999;
 const app = express();
 dotenv.config()
-// console.log(app)
+// console.log(process.env.MONGOURL)
 
 app.listen(PORT, () => {
   connectDb();
