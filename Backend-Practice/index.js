@@ -9,6 +9,7 @@ const PORT = 5000;
 const app = express();
 dotenv.config()
 // console.log(process.env.MONGOURL)
+// console.log(process.env.MONGOURL)
 
 app.use(cors())
 app.use(express.json())
