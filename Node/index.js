@@ -6,7 +6,7 @@
 
 
 
-// first part done ✝✝✝✝✝✝✝✝✝✝✝✝✝
+// first part done ✝✝✝✝✝✝✝✝✝✝✝✝✝✝✝✝✝
 
 // const myName = "Muhamamd ahsan"
 
