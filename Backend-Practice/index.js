@@ -14,6 +14,7 @@ dotenv.config()
 app.use(cors())
 app.use(express.json())
 app.use('/api/auth', authRoutes)
+
 app.listen(PORT, () => {
   connectDb();
   console.log(`App Listening on this Port Number ${PORT}`);
