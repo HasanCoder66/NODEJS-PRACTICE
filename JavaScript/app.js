@@ -21,12 +21,6 @@
 
 // question 7
 
-
-
-
-
-
-
 // Chapter No 2
 
 // question 1
@@ -66,13 +60,6 @@
 // var blah = "balsjdfa;lsdj;flasjd;flkasj";
 // alert(blah);
 
-
-
-
-
-
-
-
 // Chapter No 3
 
 // question 1
@@ -95,13 +82,6 @@
 
 // document.writeln(visitorName + " " + "Ordered " + " " + quantity + " " + productTitle +"(s)" + " "+ "on" + " "+brandName+ " " + "Clothing Store." )
 
-
-
-
-
-
-
-
 // Chapter No 4
 
 // question 1
@@ -113,10 +93,9 @@
 // console.log("num2 ===>", num2);
 // console.log("num3 ===>", num3);
 
-
 // question 2
 
-// a 
+// a
 // Legal variables Names ====>
 // var fullName = "Muhammad Hasan"
 // var $lastName = "Ashraf"
@@ -124,38 +103,31 @@
 // var my_age = 22
 // var MYUSERRESPONSE = "my user response"
 
-// b 
+// b
 // Illegal variables Names ====>
 
 // var 1st = 1;
 // var  fullName% = "hasan"
 // var *name = "hasan"
-// var my-name = "hasan" 
+// var my-name = "hasan"
 // var my-3 = 56
-
 
 // question 3
 
-// a 
+// a
 // var title = "Rules for JavaScript Variables";
 
 // b
 // alert(title + " " + "$ Sign" + " " + "_ underScore " + " " + " camelCase" + " " + " number" + " " )
 
-// c 
+// c
 // alert("Variable Must begin with a" + " " + "$ Sign" + " " + "_ underScore " + " " + " name")
 
-// d 
+// d
 // var caseSensitive  = "Variable Names are Case Sensitive"
 
-// e 
+// e
 // var variableNameContains = "Variable should not be a keyword"
-
-
-
-
-
-
 
 // Chapter No 5
 
@@ -168,13 +140,12 @@
 // var sumNum = num1 + num2;
 // console.log("Sum of" + " " + num1 + " " + "and" + " " + num2 + " " + "is" + " " + sumNum);
 
-// b 
+// b
 // var num1 = 15;
 // var num2 = 7;
 
 // var sumNum = num1 - num2;
 // console.log("Subtraction of" + " " + num1 + " " + "and" + " " + num2 + " " + "is" + " " + sumNum);
-
 
 // c
 // var num1 = 15;
@@ -197,34 +168,32 @@
 // var sumNum = num1 % num2;
 // console.log("Modulus of" + " " + num1 + " " + "and" + " " + num2 + " " + "is" + " " + sumNum);
 
-
 // question 3
 
-// a 
+// a
 // var myVariable;
-// b 
+// b
 // console.log("Value after declaration is: ",myVariable)
-// c 
+// c
 // myVariable = 22;
-// d 
+// d
 // console.log("Initial Value: ",myVariable)
-// e 
+// e
 // myVariable++
-// f 
+// f
 // console.log("Value after Increment is: ",myVariable)
-// g 
+// g
 // myVariable = myVariable + 7;
-// h 
+// h
 // console.log("Value after addition is: ",myVariable)
-// i 
+// i
 // myVariable--
 // j
 // console.log("Value after Decrement is: ",myVariable)
-// k 
+// k
 // myVariable = myVariable % 3
-// l 
+// l
 // console.log("The remainder is: ",myVariable)
-
 
 // question 4
 // var movieTicketPrize = 600;
@@ -234,9 +203,8 @@
 // var totalTicketPrizes = movieTicketPrize * movies5Tickets;
 // console.log( "Total Cost to buy "+ movies5Tickets + " tickets to a movie is" + " " +totalTicketPrizes + " " + "PKR   ")
 
-
 // question 5
-// a 
+// a
 // var tableNum = 9;
 // console.log(tableNum," X 1 = ", tableNum * 1)
 // console.log(tableNum," X 2 = ", tableNum * 2)
@@ -252,7 +220,6 @@
 // b with the help of function
 // function tableNum (tableNum) {
 
-
 // console.log(tableNum," X 1 = ", tableNum * 1)
 // console.log(tableNum," X 2 = ", tableNum * 2)
 // console.log(tableNum," X 3 = ", tableNum * 3)
@@ -267,15 +234,12 @@
 
 // tableNum(20)
 
-
 // question 6
 
 // var celcius = 31;
 // var fahrenheit  = (celcius * 9/5) + 32;
 
 // console.log(fahrenheit)
-
-
 
 // question 7
 // var item1 = 50;
@@ -297,7 +261,6 @@
 // console.log("Quantity of item 2 is " + orderedQtyOfItem2)
 // console.log("Total Cost of Your Order "  + totalOrderCosting)
 
-
 // question 8
 
 // var totalMarks = 900;
@@ -308,8 +271,6 @@
 // console.log("Total Marks:" + totalMarks);
 // console.log("Marks Obtained:" + marksObtained);
 // console.log("Student Percentage:" + percentageOfStudent);
-
-
 
 // question 9
 // a first option
@@ -329,21 +290,18 @@
 // var totalPkr = (10 * 280) + (25 * 76.51)
 // console.log("Total Pkr is: " + totalPkr)
 
-
 // question 10
 // var num = 6;
 // console.log(num + 5 * 10 / 2 )
 
-
 // question 11
 
-// a 
+// a
 // var currentYear = 2025;
-// // b 
+// // b
 // var birthYear = 2003;
-// // c 
+// // c
 // console.log("Your Age is: ", currentYear - birthYear   )
-
 
 // question 12
 
@@ -355,7 +313,6 @@
 // console.log("The Circumference is: " + circumference.toFixed(2));
 // console.log("The Area is: " + area.toFixed(2));
 
-
 // question 13
 
 // var favSnack = "Ticket"
@@ -366,7 +323,121 @@
 // var remainingYears = maxAge - age;
 // var totalSnacksNeed = remainingYears * 365 * estimatedAmountPerDay;
 
+// console.log("My Favourite Snack is: " + favSnack + " my current age is: " + age + " my Estimated Age is: " + maxAge + " I need " + estimatedAmountPerDay + " snacks per day" + "you'll need " + totalSnacksNeed)
 
-// console.log("My Favourite Snack is: " + favSnack + " my current age is: " + age + " my Estimated Age is: " + maxAge + " I need " + estimatedAmountPerDay + " snacks per day" + "you'll need " + totalSnacksNeed) 
+// var a = 5;
+// var b = 6;
+
+// var c = a++ - b-- + --a + ++a
+//     //  6   - 6  +   4   + 6
+// console.log(c) // 10
+
+// Chapter No 6
+
+// question 1
+
+// var num = 10;
+// console.log("The Value of Number is: " + num)
+// console.log("............................... ")
+// console.log("The Value of ++num is: " + ++num)
+// console.log("Now The Value is: " + num)
+// console.log("The Value of num++ is: " + num++)
+// console.log("Now The Value of Number is: " + num)
+// console.log("The Value of --num is: " + --num)
+// console.log("Now The Value is: " + num)
+// console.log("The Value of num-- is: " + num--)
+// console.log("Now The Value of Number is: " + num)
+
+// question 2
+
+// var a = 2, b = 1;
+// var result = --a - --b + ++b + b--;
+// //             1 -   0 +   1 + 1
+// console.log("a is: ",a)
+// console.log("b is: ",b)
+// console.log(result);
+
+// question 3
+
+// var userName = prompt("Enter Your Name");
+// alert("Hello " + userName);
+
+// question 4
+// var tableNum = prompt("Enter Your Fav Number to see the table" , 6);
+// console.log(tableNum," X 1 =", tableNum * 1)
+// console.log(tableNum," X 2 =", tableNum * 2)
+// console.log(tableNum," X 3 =", tableNum * 3)
+// console.log(tableNum," X 4 =", tableNum * 4)
+// console.log(tableNum," X 5 =", tableNum * 5)
+// console.log(tableNum," X 6 =", tableNum * 6)
+// console.log(tableNum," X 7 =", tableNum * 7)
+// console.log(tableNum," X 8 =", tableNum * 8)
+// console.log(tableNum," X 9 =", tableNum * 9)
+// console.log(tableNum," X 10 =",tableNum * 10)
+
+
+// question 5
+
+// var subject1 = "Maths";
+// var subject2 = "Urdu";
+// var subject3 = "Science";
+
+// var totalMarksOfEachSub = 100;
+
+// var subject1Num = prompt("Enter Your Maths Subject Number here!");
+// var subject2Num = prompt("Enter Your Urdu Subject Number here!");
+// var subject3Num = prompt("Enter Your Science Subject Number here!");
+
+// var sub1 = Number(subject1Num);
+// var sub2 = Number(subject2Num);
+// var sub3 = Number(subject3Num);
+
+// var obtainedMarks = sub1 + sub2 + sub3;
+// var totalSubMarks = 300;
+
+// var percentageSub1 = (subject1Num * 1 * 100) / totalMarksOfEachSub;
+// var percentageSub2 = (subject2Num * 1 * 100) / totalMarksOfEachSub;
+// var percentageSub3 = (subject3Num * 1 * 100) / totalMarksOfEachSub;
+
+// var overAllPercentage = (obtainedMarks * 100) / totalSubMarks;
+// console.log(overAllPercentage);
+// console.log("Subject  Total Marks Obtained  Marks Percentage");
+// console.log(
+//   "Maths   " +
+//     totalMarksOfEachSub +
+//     "       " +
+//     sub1 +
+//     " " +
+//     percentageSub1 +
+//     "%"
+// );
+// console.log(
+//   "Urdu     " +
+//     totalMarksOfEachSub +
+//     "       " +
+//     sub2 +
+//     " " +
+//     percentageSub2 +
+//     "%"
+// );
+// console.log(
+//   "Science   " +
+//     totalMarksOfEachSub +
+//     "       " +
+//     sub3 +
+//     " " +
+//     percentageSub3 +
+//     "%"
+// );
+
+// console.log(
+//   "         " +
+//     totalMarksOfEachSub * 3 +
+//     "         " +
+//     obtainedMarks +
+//     "         " +
+//     overAllPercentage +
+//     "%"
+// );
 
 
