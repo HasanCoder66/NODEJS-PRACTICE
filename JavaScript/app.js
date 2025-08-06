@@ -332,7 +332,7 @@
 //     //  6   - 6  +   4   + 6
 // console.log(c) // 10
 
-// Chapter No 6
+// Chapter No 6 & 9
 
 // question 1
 
@@ -374,7 +374,6 @@
 // console.log(tableNum," X 8 =", tableNum * 8)
 // console.log(tableNum," X 9 =", tableNum * 9)
 // console.log(tableNum," X 10 =",tableNum * 10)
-
 
 // question 5
 
@@ -439,5 +438,217 @@
 //     overAllPercentage +
 //     "%"
 // );
+
+// Chapter No 9 & 11
+
+// question 1
+// var city = prompt("Enter your city", "Karachi")
+// // console.log(city)
+
+// if(city === "Karachi") {
+// alert("Welcome to city of lights")
+// }
+
+// question 2
+
+// var gender = prompt("Enter your Gender", "Male");
+// console.log(gender)
+
+// if (gender === "Male") {
+//   alert("Good Morning Sir");
+// } else if(gender === "Female") {
+//     alert("Good Morning Ma'am")
+// }else {
+//     alert("Not valid input")
+// }
+
+// question 3
+
+// var roadSignal = prompt("Enter Signal", "red");
+// // console.log(roadSignal)
+// var message;   //declare
+
+// if (roadSignal === "red") {
+//   message = "Must stop"
+// } else if (roadSignal === "green") {
+//   message = "Move Now"
+// } else if (roadSignal === "yellow") {
+//   message = "Ready to Move"
+// }
+
+// alert(message);
+
+// question 4
+
+// var fuelIntoLtr = prompt("Enter Current Fuel in your car");
+
+// if(fuelIntoLtr < 0.25) {
+//     alert("Please refill the fuel in your car")
+// }
+
+// question 5
+
+// a
+var a = 4;
+// if (++a === 5){
+//     alert("given condition for variable is true")
+// }
+
+// b
+var b = 82;
+// if(b++ === 82) {
+//     alert("given condition for variable is true")
+// }
+
+// c
+var c = 12;
+// if(c++ === 13) {
+//         alert(" condition 1 is true")
+// }
+
+// if(c === 13) {
+//            alert(" condition 2 is true")
+// }
+
+// if(++c < 14) {
+//     alert(" condition 3 is true")
+// }
+
+// if(c === 14) {
+//     alert(" condition 4 is true")
+// }
+
+// d
+
+// var materialCost = 20000;
+// var laborCost = 2000;
+
+// var totalCost = materialCost + laborCost;
+
+// if(totalCost === materialCost + laborCost) {
+//     alert("Total cost is equal to materail and labor cost")
+// }
+
+// e
+
+// if(true){
+//         alert("True")
+//     }
+//  if(false) {
+//         alert("False")
+//     }
+
+// f
+
+// if("car" < "cat"){
+//     alert("car is smaller then cat")
+// }
+
+// question 6
+
+// var totalMarks = prompt("Enter total Marks")
+// var obtainedMarks = prompt("Enter Obtained Marks")
+
+// console.log("Total Marks =====>",totalMarks)
+// console.log("Obtained Marks =====>",obtainedMarks)
+
+// var percentage = (obtainedMarks * 100) / totalMarks
+// console.log( "User Percentage =====>", percentage+"%")
+
+// if(percentage >= 80){
+//     alert("your Grade is A-One")
+// } else if(percentage >= 70) {
+//     alert("Your Grade is A")
+// } else if(percentage >=60) {
+//     alert("Your Grade is B")
+// } else if (percentage < 60) {
+//     alert("Fail!")
+// }
+
+// question 7
+
+// var secretNumber = 6;
+
+// var guessNumber = Number(prompt("Guess the Correct Number between 1 to 10!"))
+// console.log( "guessNumber-====>", guessNumber)
+
+// // a
+// if(secretNumber == guessNumber) {
+//     alert("correct answer!")
+// }
+// // b
+// else if(secretNumber == guessNumber + 1 ||secretNumber == guessNumber - 1  ) {
+//     alert("Closed!")
+// }
+
+// question 8
+
+// var isDivisibleBy3 = Number(prompt("Enter a number we divided by 3 and give answer"))
+
+// var divide = isDivisibleBy3 / 3
+
+// alert("Your Answert after divide" + " " +" "+ divide)
+
+// question 9
+
+// var number = Number(
+//   prompt("Enter a Number between 1 to 10 We can check it is even or odd")
+// );
+
+// if (number === 2) {
+//   alert("2 is Even Number");
+// } else if (number === 4) {
+//   alert("4 is Even Number");
+// } else if (number === 6) {
+//   alert("6 is Even Number");
+// } else if (number === 8) {
+//   alert("8 is Even Number");
+// } else if (number === 10) {
+//   alert("10 is Even Number");
+// }
+// else if (number === 1) {
+//   alert("1 is Odd Number");
+// } else if (number === 3) {
+//   alert("3 is Odd Number");
+// } else if (number === 5) {
+//   alert("5 is Odd Number");
+// } else if (number === 7) {
+//   alert("7 is Odd Number");
+// }else if (number === 9) {
+//   alert("9 is Odd Number");
+// }
+
+// question 10
+// var temprature = Number(prompt("Enter your area temprature",22))
+// var message;
+// // a 
+// if(temprature > 40) {
+//     message ="It's too hot outside"
+    
+// }
+
+// // b 
+// else if(temprature > 30) {
+//     message ="The weather today is normal"
+// }
+
+// else if(temprature > 20) {
+//     message ="Today weather is cool"
+// }
+
+// else if(temprature > 10) {
+//    message = "OMG! Today weather is so cool"
+// }
+
+// alert(message)
+
+
+// question 11
+
+// a 
+var firstNum = Number(prompt("Enter Table Number", 5));
+
+
+
 
 
