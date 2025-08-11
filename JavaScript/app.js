@@ -489,19 +489,19 @@
 // question 5
 
 // a
-var a = 4;
+// var a = 4;
 // if (++a === 5){
 //     alert("given condition for variable is true")
 // }
 
 // b
-var b = 82;
+// var b = 82;
 // if(b++ === 82) {
 //     alert("given condition for variable is true")
 // }
 
 // c
-var c = 12;
+// var c = 12;
 // if(c++ === 13) {
 //         alert(" condition 1 is true")
 // }
@@ -621,13 +621,13 @@ var c = 12;
 // question 10
 // var temprature = Number(prompt("Enter your area temprature",22))
 // var message;
-// // a 
+// // a
 // if(temprature > 40) {
 //     message ="It's too hot outside"
-    
+
 // }
 
-// // b 
+// // b
 // else if(temprature > 30) {
 //     message ="The weather today is normal"
 // }
@@ -642,13 +642,283 @@ var c = 12;
 
 // alert(message)
 
-
 // question 11
 
-// a 
-var firstNum = Number(prompt("Enter Table Number", 5));
+// a
+// var firstNum = +prompt("Enter First Number", 5);
+// if (firstNum) {
+//   var secondNum = +prompt("Enter Second Number", 5);
+//   if (secondNum) {
+//     var operation = prompt("Enter Operation Like +, -, *, /, % ");
+//     if (operation == "+") {
+//       alert("Sum is: " + " " + (firstNum + secondNum));
+//     } else if (operation == "-") {
+//       alert("Subtract is: " + " " + (firstNum - secondNum));
+//     } else if (operation == "*") {
+//       alert("Multiply is: " + " " + (firstNum * secondNum));
+//     } else if (operation == "/") {
+//       alert("Divide is: " + " " + (firstNum / secondNum));
+//     } else if (operation == "%") {
+//       alert("Modulus is: " + " " + (firstNum % secondNum));
+//     } else {
+//       alert("Please Enter a Valid Operatior");
+//     }
+//   } else {
+//     alert("Please Enter a Valid Number");
+//   }
+// } else {
+//   alert("Please Enter a Valid Number");
+// }
+
+// console.log(typeof firstNum)
+// console.log(typeof secondNum)
+// console.log(typeof operation)
+
+// b
+// if(operation == "+"){
+//     alert("Sum is: " + " " + firstNum + secondNum)
+// } else if (operation == "-") {
+//     alert("Subtract is: " + " " + firstNum - secondNum)
+// } else if (operation == "*") {
+//     alert("Multiply is: " + " " + firstNum * secondNum)
+// }else if (operation == "/") {
+//     alert("Divide is: " + " " + firstNum / secondNum)
+// } else if (operation == "%") {
+//     alert("Modulus is: " + " " + firstNum % secondNum)
+// } else {
+//     alert("Please Enter a Value")
+// }
+
+// Chapter No 12 & 14
+
+// question 1
+// var userInput = prompt("Please Enter a Character or Number");
+// console.log(userInput);
+
+// if (userInput >= "A" && userInput <= "Z") {
+//   alert("You Entered and Uppercase Character");
+// } else if (userInput >= 'a' && userInput<= 'z') {
+//     alert("You Entered a lowercase character")
+// } else if (userInput >= "0" && userInput <= "9") {
+//     alert("Your Entered a Number")
+// }
+
+// question 2
+// var num1 = 18;
+// var num2 = 18;
+
+// if (num1 > num2){
+//     alert("Num1 is greater than Num2 " + num1)
+// } else if (num1 < num2) {
+//     alert("Num2 is greater than Num1 " + num2 )
+// } else if (num1 === num2) {
+//     alert("Both Number are equal " + num1 + " and" + num2)
+// } else {
+//     alert("please enter a valid number")
+// }
+
+// question 3
+// var userInput = +prompt("Enter a Number to check it is positive, negative or zero");
+// if (userInput > 0 ) {
+// alert("You Entered a Postive Number " + userInput);
+
+// } else if  (userInput < 0 ) {
+//     alert("You Entered a Negative Number " + userInput);
+// }
+// else {
+//     alert ("Please enter a valid number or zero")
+// }
+
+// question 4
+// var userInput = prompt("Enter a Character to check it is vowel or not");
+// if (
+//   userInput === "a" ||
+//   userInput === "e" ||
+//   userInput === "i" ||
+//   userInput === "o" ||
+//   userInput === "u"
+// ) {
+//   alert("You Entered a Vowel Character " + userInput);
+// } else if (
+//   userInput === "A" ||
+//   userInput === "E" ||
+//   userInput === "I" ||
+//   userInput === "O" ||
+//   userInput === "U"
+// ) {
+//   alert("You Entered a Vowel Character " + userInput);
+// } else if (
+//   userInput === "b" ||
+//   userInput === "c" ||
+//   userInput === "d" ||
+//   userInput === "f" ||
+//   userInput === "g" ||
+//   userInput === "h" ||
+//   userInput === "j" ||
+//   userInput === "k" ||
+//   userInput === "l" ||
+//   userInput === "m" ||
+//   userInput === "n" ||
+//   userInput === "p" ||
+//   userInput === "q" ||
+//   userInput === "r" ||
+//   userInput === "s" ||
+//   userInput === "t" ||
+//   userInput === "v" ||
+//   userInput === "w" ||
+//   userInput === "x" ||
+//   userInput === "y" ||
+//   userInput === "z"
+// ) {
+//   alert("You Entered a Consonent " + userInput);
+// } else if (
+//   userInput === "B" ||
+//   userInput === "C" ||
+//   userInput === "D" ||
+//   userInput === "F" ||
+//   userInput === "G" ||
+//   userInput === "H" ||
+//   userInput === "J" ||
+//   userInput === "K" ||
+//   userInput === "L" ||
+//   userInput === "M" ||
+//   userInput === "N" ||
+//   userInput === "P" ||
+//   userInput === "Q" ||
+//   userInput === "R" ||
+//   userInput === "S" ||
+//   userInput === "T" ||
+//   userInput === "V" ||
+//   userInput === "W" ||
+//   userInput === "X" ||
+//   userInput === "Y" ||
+//   userInput === "Z"
+// ) {
+//   alert("You Entered a Consonent " + userInput);
+// } else {
+//   alert("Please Enter a Valid character or vowel");
+// }
+
+
+// question 5
+
+// var password = "hasan123";
+// var userInputPass = prompt("Enter Your Password");
+
+// if (userInputPass == password){
+//     alert("Correct! The password you entered matches the original password");
+// } else if (userInputPass == " ") {
+//     alert("Please enter your password");
+// } else {
+//     alert("Incorrect Password " + userInputPass + " " + "Please try again")
+// }
+
+
+// question 6
+// var greeting;
+// var hour = 13
+
+// if(hour < 18) {
+//     greeting = "Good Day"
+//     console.log(greeting)
+// } else {
+//     greeting = "Good Evening"
+//     console.log(greeting)
+// }
 
 
 
+// question 7
+// var time  = +prompt("Enter Time in 24 Hours Format like 1900 for 7 PM");
+
+// if ( time > 0 && time < 1200) {
+// alert("Good Morning!");
+// } else if (time >= 1200 && time < 1700 ){
+//     alert("Good Afternoon!")
+// } else if (time >= 1200 && time < 1700 ){
+//     alert("Good Afternoon!")
+// } else if (time >= 1701 && time < 2100 ){
+//     alert("Good Evening!")
+// } else if (time >= 2100 && time <= 2359 ){
+//     alert("Good Night!")
+// }
+
+// else {
+//     alert("Please Enter a Valid Time")
+// }
 
 
+// if(true){
+//     alert("Hello")
+// }
+
+// var edu = prompt("Enter Your Education")
+
+// if(edu !== "matric") {
+// console.log("Eligible")
+// }
+
+// if(false){
+//     console.log("Hey User!")
+// }
+// else {
+//     console.log("Please Sign In!")
+// }
+
+// var kiaLanaHai = prompt("Kia Lana Hai?");
+// var kg = 0.5;
+// if (kiaLanaHai === "doodh" && kg === 1 ) {
+
+//   console.log("doodh le aou");
+
+// } else if (kiaLanaHai === "dahi") {
+
+//   console.log("dahi hi le aou");
+// } else if (kiaLanaHai === "bun") {
+
+//   console.log(" ary yaar bun le aou");
+// } else {
+
+//   console.log("kuch bi le aou khali nahi ana");
+// }
+
+// language example logic
+// var lang = prompt("Enter Your Programming Language")
+// var exp = prompt("Enter Your Experience")
+// // var location = prompt("Enter Your Location")
+
+// if(lang == "js" && exp == 2) {
+//     console.log("Interview Kab Deney Aaskty ?")
+// } else if (lang === "js") {
+//     console.log("Hamain js developer chaiye")
+// }
+
+// else {
+//     console.log("Nhi aap hamari requirements say meet nhi kerty")
+// }
+
+// Guesss Game
+// var guessNum = prompt("Enter a guess Number");
+// var correctAnswer = 5;
+
+// if (guessNum == correctAnswer) {
+//     alert("Wow! you enter a correct Number!")
+// } else if (guessNum == 1) {
+//     alert("bohat door ho")
+// } else if(guessNum == 2) {
+//     alert("pehly sai thora qareeb agaye")
+// }  else if(guessNum == 3) {
+//     alert("thora or kareeb ho")
+// } else if (guessNum == 5 - 1) {
+// alert("Please Try Again + 1")
+// } else if (guessNum == 5 + 1) {
+// alert("Please Try Again - 1")
+// } else if (guessNum == 7 ) {
+// alert("number reduce kery")
+// } else if (guessNum == 8 ) {
+// alert("thora neechy number pr aou")
+// } else if (guessNum == 9 ) {
+// alert("nhi ye to nhi hai")
+// } else {
+//      alert("Please Try AGain")
+//  }
