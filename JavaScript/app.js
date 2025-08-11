@@ -689,7 +689,7 @@
 //     alert("Please Enter a Value")
 // }
 
-// Chapter No 12 & 14
+// Chapter No 12 & 13
 
 // question 1
 // var userInput = prompt("Please Enter a Character or Number");
@@ -848,6 +848,22 @@
 // }
 
 
+
+
+// Chapter No 14 & 16
+
+// question 1 
+// var stuNames = [];
+// console.log(stuNames)
+
+
+// question 2 
+var stuName  = []
+// studentName = 
+console.log( stuName)
+
+
+// question 1
 // if(true){
 //     alert("Hello")
 // }
