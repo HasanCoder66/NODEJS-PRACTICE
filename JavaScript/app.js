@@ -858,9 +858,162 @@
 
 
 // question 2 
-var stuName  = []
-// studentName = 
-console.log( stuName)
+// var stuName  = new Array()
+// console.log( stuName)
+
+
+// question 3
+// var studentsName = ["Hasan","Moiz","Saad"]
+// console.log(studentsName);
+
+// question 4
+// var numberArr = [1,2,3,4,5,6,7,8,9,10]
+// console.log(numberArr);
+
+// question 5
+// var booleanArr = [true, false, true,]
+// console.log(booleanArr);
+
+
+// question 6
+// var mixedArr = [true, 1, "hasan",]
+// console.log(mixedArr);
+
+// question 7
+// var availableEdu = ["SSC","HSC","BSC", "BS", "Bcom", "MPhil","Phd"];
+// console.log(availableEdu);
+
+
+// question 8
+// var studentsName = ["Hasan","Moiz","Saad"]
+// var studentsName = ["88","77","89"]
+
+// question 9
+// var colors = ["Red", "Green", "Blue", "Orange"];
+// console.log(colors)
+
+
+
+// a 
+// var userColor = prompt("Enter a color to add at the beginning of the array");
+// colors.unshift(userColor)
+// console.log(colors)
+
+// b 
+// var userColor = prompt("Enter a color to add at the end of the array");
+// colors.push(userColor)
+// console.log(colors)
+
+// // c 
+// colors.unshift("purple", "pink")
+// console.log(colors)
+
+
+// d
+// colors.shift()
+// console.log(colors)
+
+
+// e
+// colors.pop()
+// console.log(colors)
+
+
+// f 
+// var userIndex = +prompt("Enter an index to add a color at that index")
+// if(userIndex === 1) {
+//     var userColor = prompt("Enter a color to add at index 1")
+//     colors.splice(userIndex,0, userColor)
+//     console.log(colors)
+// }
+
+
+// g 
+// var userIndex = +prompt("Enter an index to delete color from that index")
+
+// if(userIndex === 1) {
+//     var howManyDelete = +prompt("How many colors you want to delete from index 1")
+//     colors.splice(userIndex, howManyDelete)
+//     console.log(colors)
+// }
+ 
+
+
+// question 10
+
+// var numberArr = [320, 230, 480, 120];
+
+// numberArr.sort()
+// console.log(numberArr)
+
+
+// question 11
+// var cities= ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
+
+// var copyArr = cities.slice(0, 3)
+// console.log(copyArr)
+// console.log(cities)
+
+
+// question 12
+// var strArr = ["This", "is", "my", "cat"];
+
+
+// var returnValue = strArr.join(",")
+// console.log(returnValue)
+
+
+// question 13
+
+// var student = ["Hasan", "Moiz"]
+
+// student.shift()
+// console.log(student);
+// student.pop()
+// console.log(student);
+
+
+// question 14
+//  student = ["Hasan", "Moiz"]
+
+// student.pop()
+// console.log(student);
+// student.pop()
+// console.log(student);
+
+
+// question 15
+
+// html question 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // question 1
@@ -938,3 +1091,4 @@ console.log( stuName)
 // } else {
 //      alert("Please Try AGain")
 //  }
+
