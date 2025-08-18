@@ -799,7 +799,6 @@
 //   alert("Please Enter a Valid character or vowel");
 // }
 
-
 // question 5
 
 // var password = "hasan123";
@@ -813,7 +812,6 @@
 //     alert("Incorrect Password " + userInputPass + " " + "Please try again")
 // }
 
-
 // question 6
 // var greeting;
 // var hour = 13
@@ -825,8 +823,6 @@
 //     greeting = "Good Evening"
 //     console.log(greeting)
 // }
-
-
 
 // question 7
 // var time  = +prompt("Enter Time in 24 Hours Format like 1900 for 7 PM");
@@ -847,20 +843,15 @@
 //     alert("Please Enter a Valid Time")
 // }
 
-
-
-
 // Chapter No 14 & 16
 
-// question 1 
+// question 1
 // var stuNames = [];
 // console.log(stuNames)
 
-
-// question 2 
+// question 2
 // var stuName  = new Array()
 // console.log( stuName)
-
 
 // question 3
 // var studentsName = ["Hasan","Moiz","Saad"]
@@ -874,7 +865,6 @@
 // var booleanArr = [true, false, true,]
 // console.log(booleanArr);
 
-
 // question 6
 // var mixedArr = [true, 1, "hasan",]
 // console.log(mixedArr);
@@ -882,7 +872,6 @@
 // question 7
 // var availableEdu = ["SSC","HSC","BSC", "BS", "Bcom", "MPhil","Phd"];
 // console.log(availableEdu);
-
 
 // question 8
 // var studentsName = ["Hasan","Moiz","Saad"]
@@ -892,34 +881,29 @@
 // var colors = ["Red", "Green", "Blue", "Orange"];
 // console.log(colors)
 
-
-
-// a 
+// a
 // var userColor = prompt("Enter a color to add at the beginning of the array");
 // colors.unshift(userColor)
 // console.log(colors)
 
-// b 
+// b
 // var userColor = prompt("Enter a color to add at the end of the array");
 // colors.push(userColor)
 // console.log(colors)
 
-// // c 
+// // c
 // colors.unshift("purple", "pink")
 // console.log(colors)
-
 
 // d
 // colors.shift()
 // console.log(colors)
 
-
 // e
 // colors.pop()
 // console.log(colors)
 
-
-// f 
+// f
 // var userIndex = +prompt("Enter an index to add a color at that index")
 // if(userIndex === 1) {
 //     var userColor = prompt("Enter a color to add at index 1")
@@ -927,8 +911,7 @@
 //     console.log(colors)
 // }
 
-
-// g 
+// g
 // var userIndex = +prompt("Enter an index to delete color from that index")
 
 // if(userIndex === 1) {
@@ -936,8 +919,6 @@
 //     colors.splice(userIndex, howManyDelete)
 //     console.log(colors)
 // }
- 
-
 
 // question 10
 
@@ -946,7 +927,6 @@
 // numberArr.sort()
 // console.log(numberArr)
 
-
 // question 11
 // var cities= ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
 
@@ -954,14 +934,11 @@
 // console.log(copyArr)
 // console.log(cities)
 
-
 // question 12
 // var strArr = ["This", "is", "my", "cat"];
 
-
 // var returnValue = strArr.join(",")
 // console.log(returnValue)
-
 
 // question 13
 
@@ -972,7 +949,6 @@
 // student.pop()
 // console.log(student);
 
-
 // question 14
 //  student = ["Hasan", "Moiz"]
 
@@ -981,34 +957,71 @@
 // student.pop()
 // console.log(student);
 
-
 // question 15
 
-// html question 
+// html question
 
 
 
+// Chapter No 17 & 20
+
+// question 1
+
+// var multiDimensionalArr = [[], [], []];
+// console.log(multiDimensionalArr)
+
+
+// question 2
+
+// var multiDimensionalArr = [
+//     [0,1,2,3],
+//     [1,0,12],
+//     [2,1,0,1],
+// ]
+
+// console.log(multiDimensionalArr)
 
 
 
+// question 3
+// for (var n =1 ; n <= 10; n++) {
+// console.log(n)
+// }
+
+
+// question 4
+// var tableNum = +prompt("Enter a Number to see the table in console", 5)
+// var enterTableLength = +prompt("Enter a Table Length", 10)
+// var x ="X"
+// // question 4
+// for(var i = 1; i <= enterTableLength; i++ )  {
+// console.log(tableNum, x , + i, "=", tableNum * i )
+// }
 
 
 
+// question 5
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+
+// for(var i = 0 ; i <fruits.length; i ++) {
+//     console.log("Element at index " + i + " is " + fruits[i]) 
+// }
 
 
+// question 6
 
+// a 
+// var counting= [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+// for (var i = 1; i <= counting.length ; i ++ ) {
+//     console.log(i)
+// }
 
+// b
+var reveseCounting = [10,9,8,7,6,5,4,3,2,1];
 
-
-
-
-
-
-
-
-
-
-
+for(var i = 0; i < reveseCounting.length; i++){
+    console.log(reveseCounting[i])
+}
 
 
 
@@ -1091,4 +1104,3 @@
 // } else {
 //      alert("Please Try AGain")
 //  }
-
