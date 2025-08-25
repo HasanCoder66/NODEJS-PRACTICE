@@ -961,15 +961,12 @@
 
 // html question
 
-
-
 // Chapter No 17 & 20
 
 // question 1
 
 // var multiDimensionalArr = [[], [], []];
 // console.log(multiDimensionalArr)
-
 
 // question 2
 
@@ -981,13 +978,10 @@
 
 // console.log(multiDimensionalArr)
 
-
-
 // question 3
 // for (var n =1 ; n <= 10; n++) {
 // console.log(n)
 // }
-
 
 // question 4
 // var tableNum = +prompt("Enter a Number to see the table in console", 5)
@@ -998,19 +992,16 @@
 // console.log(tableNum, x , + i, "=", tableNum * i )
 // }
 
-
-
 // question 5
 // var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
 
 // for(var i = 0 ; i <fruits.length; i ++) {
-//     console.log("Element at index " + i + " is " + fruits[i]) 
+//     console.log("Element at index " + i + " is " + fruits[i])
 // }
-
 
 // question 6
 
-// a 
+// a
 // for (var i = 1; i <=15 ; i ++ ) {
 //     console.log(i)
 // }
@@ -1020,28 +1011,26 @@
 //     console.log(i)
 // }
 
-// c 
+// c
 // for (var i = 0; i<=20; i++){
 //    if(i % 2 === 0){
 //     console.log(i)
 //    }
-// }   
+// }
 
-// d 
+// d
 // for (var i = 0; i<=20; i++){
 //    if(i % 2 !== 0){
 //     console.log(i)
 //    }
-// }   
+// }
 
 // e
-for (var i = 2; i<=20; i++){
-   if(i % 2 === 0){
-    console.log(i+"k")
-   }
-}  
-
-
+// for (var i = 2; i<=20; i++){
+//    if(i % 2 === 0){
+//     console.log(i+"k")
+//    }
+// }
 
 // question 7
 // var fruitsArr = ["Apple", "Banana" , "Oranges","Watermelon","Mango"];
@@ -1053,7 +1042,7 @@ for (var i = 2; i<=20; i++){
 // for (var i = 0; i < fruitsArr.length; i++){
 //     // console.log(fruitsArr[i])
 //     if(fruitsArr[i] == userInput) {
-//        flag = true; 
+//        flag = true;
 //     }
 // }
 
@@ -1063,9 +1052,8 @@ for (var i = 2; i<=20; i++){
 //     console.log(`${userInput} is Not Available `)
 // }
 
-
 // // question 8
-// Max Number 
+// Max Number
 // var numArr = [12, 89, 90,100,2, 4,8, 88,]
 // var maxNum = numArr[0]
 // for (var i = 0; i < numArr.length; i++) {
@@ -1079,10 +1067,8 @@ for (var i = 2; i<=20; i++){
 
 // console.log(maxNum)
 
-
-
 // // question 9
-// Min Number 
+// Min Number
 // var numArr = [2, 89, 90,100,6, 4,8, 88,]
 // var minNum = numArr[0]
 // for (var i = 0; i < numArr.length; i++) {
@@ -1094,20 +1080,304 @@ for (var i = 2; i<=20; i++){
 
 // }
 
-
 // // question 10
 
 // for (var i =1; i <= 20; i++){
 // console.log(i*5)
 // }
 
+// Chapter No 21 & 25
+
+// question 1
+
+// var firstName = prompt("Enter your Frist Name");
+// var lastName = prompt("Enter your Last Name");
+
+// var fullName = firstName + lastName;
+
+// console.log("FullName ==>", fullName)
+
+// question 2
+// var userInput = prompt("Enter your Fav Phone Model");
+// console.log("My Fav Phone is:" , userInput, "length of string is:", userInput.length
+//  )
+
+// question 3
+
+// var country = "Pakistani"
+// console.log("Country ==> ", country, "Index of n", country.indexOf("n"))
+
+// question 4
+// var greetings = "Hello World"
+// console.log("String :", greetings, "last Index of", greetings.lastIndexOf("l"))
+
+// question 5
+
+// var country = "Pakistani"
+// console.log("String:",country,"Character At Index 3:",country.charAt(3))
+
+// question 6
+// var firstName = prompt("Enter your Frist Name");
+// var lastName = prompt("Enter your Last Name");
+
+// var fullName = firstName.concat(" ",lastName);
+
+// console.log(fullName)
+
+// question 7
+
+// var city = "Heyderabad";
+// var updatedCity = city.replace("Heyder","Islam")
+// console.log(city, "After Updated:", updatedCity)
+
+// question 8
+// var para = "Newspapers are an important part of our life. Some people cannot start their day without reading Newspapers."
+// var updatedPara = para.replaceAll("News", "Raddi")
+
+// console.log(updatedPara)
+
+// question 9
+// var str = "804"
+
+// var updateStr = Number(str)
+// console.log(typeof updateStr)
+
+// question 10
+// var userInput = prompt("Enter something");
+// console.log(userInput.toUpperCase())
+
+// // question 10 b
+// var userInput = prompt("Enter something");
+// console.log(userInput.toLowerCase())
+
+// // question 11
+// var userInput = prompt("Enter something");
+// var cap1stLetter = userInput.slice(0,1).toUpperCase()
+
+// var titleCase = cap1stLetter + userInput.slice(1)
+// console.log(titleCase)
+
+// // question 12
+// var num = 7897;
+// console.log(typeof num, num)
+
+// var numToStr = num.toString()
+
+// console.log(typeof numToStr, numToStr)
+
+// // question 13
+
+// var specialChar = ["!", "@", "#", "%", "^", "&", "*", "-", "+", "="];
+
+// var user = prompt("Enter Valid Name Without Special Characters.");
+// var flag = false;
+// for (var i = 0; i < specialChar.length; i++) {
+//   // console.log(specialChar[i])
+//   for (var j = 0; j < user.length; j++) {
+//     if (specialChar[i] == user[j]) {
+//       flag = true;
+//     }
+//   }
+// }
+
+// if (flag) {
+//     console.log("Please Enter a Valid Name.")
+// }else {
+//     console.log("Thanks for sharing your name")
+// }
+
+// question 14
+// var fruitsArr = ["Apple", "Banana" , "Oranges","Watermelon","Mango"];
+// var user = prompt("Enter a Fruit Name.");
+
+// var firstLetter = user.slice(0,1).toUpperCase()
+
+// var userInput = firstLetter.concat(user.slice(1).toLowerCase());
+// console.log(userInput)
+// var flag = "no"
+
+// for (var i = 0; i < fruitsArr.length; i++){
+//     if(fruitsArr[i] == userInput){
+// flag = "yes"
+//     }
+// }
+// if(flag == "yes") {
+//     console.log("mil jayega aapko")
+// }else {
+//     console.log("hamary pass nhi hain aagy maloom kerlen!")
+// }
+
+// question 15
+// var pass = prompt("Enter a password");
+// var flagLower = false;
+// var flagUpper = false;
+// var az = [
+//   "a",
+//   "b",
+//   "c",
+//   "d",
+//   "e",
+//   "f",
+//   "j",
+//   "h",
+//   "i",
+//   "j",
+//   "k",
+//   "l",
+//   "m",
+//   "n",
+//   "o",
+//   "p",
+//   "q",
+//   "r",
+//   "s",
+//   "t",
+//   "u",
+//   "v",
+//   "w",
+//   "x",
+//   "y",
+//   "z",
+// ];
+
+// var AZ = [
+//   "A",
+//   "B",
+//   "C",
+//   "D",
+//   "E",
+//   "F",
+//   "J",
+//   "H",
+//   "I",
+//   "J",
+//   "K",
+//   "L",
+//   "M",
+//   "N",
+//   "O",
+//   "P",
+//   "Q",
+//   "R",
+//   "S",
+//   "T",
+//   "U",
+//   "V",
+//   "W",
+//   "X",
+//   "Y",
+//   "Z",
+// ];
+
+// if (pass.length < 8) {
+//   console.log("Password at least 8 characters ka hona chaiye");
+// } else if (
+//   !isNaN(pass[0])
+// ) {
+//   console.log("password ka pehla character number nahi hosakta!");
+// } else {
+//     for (var i = 0; i < az.length; i++){
+//        for (var j = 0; j < pass.length; j++){
+//         if(az[i] == pass[j]) {
+//             flagLower = true;
+//             break;
+//         }
+//         // console.log(az[i]== pass[j])
+//        }
+//     }
+//      if(!flagLower) {
+//     console.log("Password mai kam sy kam 1 lowercase letter daalo")
+//   }
 
 
-// console.log(minNum)
+// //   uppercase check 
+//   for (var i = 0; i < AZ.length; i++){
+//         for (var j = 0; j < pass.length; j++) {
+//             // console.log(AZ[i], pass[j])
+//              if(AZ[i] == pass[j]) {
+//             flagUpper = true;
+//             break;
+//         }
+//         }
+//     }
+// if(!flagUpper) {
+//     console.log("Password mai kam sy kam 1 uppercase letter daalo")
+//   }
+// } 
+//   if(flagLower && flagUpper) {
+//     console.log("Your password is correct")
+//   }
+
+// question 16
+// var str = "String hai mery pass";
+
+// var strArr = str.split(" ")
+
+// console.log("Str Arr ==>",strArr)
+
+// question 17
+// var country = prompt("Enter your Country");
+
+// console.log("user Country is: ",country, "\n", country.charAt(country.length -1))
+
+
+
+// // question 18
+//  var text = "The Quick brown fox jumps over the lazy dog"
+
+//  var splitText = text.split(" ")
+
+//  console.log(splitText)
+// // var newSlice = text.slice(i, i +3)
+//  for (var i = 0; i < splitText.length -1; i++){
+//     console.log(splitText[i])
+//     for
+//     // console.log(text[i].slice(3))
+//     // for (var j = 0; j < splitText.length -1; j++) {
+//     //     console.log(splitText[j], text[i])
+//     // }
+//     // if(newSlice){
+//     //     console.log(newSlice)
+//     // }
+//  }
+
+
+//  var text = "Quick brown fox jumps over the lazy dog The"
+//  var splitText = text.split(" ")
+// var flag = false;
+//  var newArr = splitText[0]
+
+//  for(var i = 0; i < splitText.length -1; i++){
+//     // console.log(splitText[i])
+//     // console.log(newArr)
+//     if(splitText[i] == newArr){
+//         flag = true;
+//         break;
+//     }
+//  }
+
+//  if(flag) {
+//     console.log("Word Mil gaya")
+//  } else {
+//     console.log("nhi mila jani")
+//  }
+
+
+
+
+
+
+
+
 // question 1
 // if(true){
 //     alert("Hello")
 // }
+
+
+
+
+
 
 // var edu = prompt("Enter Your Education")
 
