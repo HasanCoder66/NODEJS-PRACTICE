@@ -1011,24 +1011,97 @@
 // question 6
 
 // a 
-// var counting= [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
-// for (var i = 1; i <= counting.length ; i ++ ) {
+// for (var i = 1; i <=15 ; i ++ ) {
 //     console.log(i)
 // }
 
 // b
-var reveseCounting = [10,9,8,7,6,5,4,3,2,1];
+// for(var i = 10; i > 0; i--){
+//     console.log(i)
+// }
 
-for(var i = 0; i < reveseCounting.length; i++){
-    console.log(reveseCounting[i])
-}
+// c 
+// for (var i = 0; i<=20; i++){
+//    if(i % 2 === 0){
+//     console.log(i)
+//    }
+// }   
+
+// d 
+// for (var i = 0; i<=20; i++){
+//    if(i % 2 !== 0){
+//     console.log(i)
+//    }
+// }   
+
+// e
+for (var i = 2; i<=20; i++){
+   if(i % 2 === 0){
+    console.log(i+"k")
+   }
+}  
+
+// question 7
+// var fruitsArr = ["Apple", "Banana" , "Oranges","Watermelon","Mango"];
+
+// var userInput = prompt("What Do you Want in our shop?")
+// console.log(userInput, "UserInput ==>")
+// var flag = false;
+
+// for (var i = 0; i < fruitsArr.length; i++){
+//     // console.log(fruitsArr[i])
+//     if(fruitsArr[i] == userInput) {
+//        flag = true; 
+//     }
+// }
+
+// if(flag) {
+//     console.log(`${userInput} is Available `)
+// }else {
+//     console.log(`${userInput} is Not Available `)
+// }
+
+
+// // question 8
+// Max Number 
+// var numArr = [12, 89, 90,100,2, 4,8, 88,]
+// var maxNum = numArr[0]
+// for (var i = 0; i < numArr.length; i++) {
+//     // console.log(numArr[i]);
+//     if(numArr[i] > maxNum) {
+//         maxNum = numArr[i]
+//         // console.log(maxNum)
+//     }
+
+// }
+
+// console.log(maxNum)
 
 
 
+// // question 9
+// Min Number 
+// var numArr = [2, 89, 90,100,6, 4,8, 88,]
+// var minNum = numArr[0]
+// for (var i = 0; i < numArr.length; i++) {
+//     // console.log(numArr[i]);
+//     if(numArr[i] < minNum) {
+//         minNum = numArr[i]
+//         // console.log(maxNum)
+//     }
+
+// }
+
+
+// // question 10
+
+// for (var i =1; i <= 20; i++){
+// console.log(i*5)
+// }
 
 
 
-
+// console.log(minNum)
 // question 1
 // if(true){
 //     alert("Hello")
