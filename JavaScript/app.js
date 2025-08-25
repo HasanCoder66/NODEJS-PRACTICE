@@ -1041,6 +1041,8 @@ for (var i = 2; i<=20; i++){
    }
 }  
 
+
+
 // question 7
 // var fruitsArr = ["Apple", "Banana" , "Oranges","Watermelon","Mango"];
 
