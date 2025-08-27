@@ -1342,6 +1342,8 @@
 //  }
 
 
+
+// Correct ==>
 //  var text = "Quick brown fox jumps over the lazy dog The"
 //  var splitText = text.split(" ")
 // var flag = false;
@@ -1365,6 +1367,154 @@
 
 
 
+// Chapter No 26 & 30
+
+// question 1
+
+// var posInt = Number(prompt("Enter a Positve Integer", 8.0854));
+
+// console.log("Integer Value ==>", "Type of INteger", posInt);
+// var roundNum = Math.round(posInt)
+// console.log("round Value ==>", roundNum);
+// var floorNum = Math.floor(posInt)
+// console.log("floorNum Value ==>", floorNum);
+// var ceilNum = Math.ceil(posInt)
+// console.log("ceilNum Value ==>", ceilNum);
+
+
+// question 2
+
+// var negInt = Number(prompt("Enter a Negative Integer", -8.0854));
+
+// console.log("Integer Value ==>", "Type of Integer", negInt);
+// var roundNum = Math.round(negInt)
+// console.log("round Value ==>", roundNum);
+// var floorNum = Math.floor(negInt)
+// console.log("floorNum Value ==>", floorNum);
+// var ceilNum = Math.ceil(negInt)
+// console.log("ceilNum Value ==>", ceilNum);
+
+
+// question 3
+// var userNum = +prompt("Enter a Number!")
+// var absVal;
+// if (userNum < 0){
+//     absVal = -userNum;
+// }else {
+//     absVal = userNum;
+// }
+
+// console.log(absVal)
+
+
+// question 4
+
+// var randomNum = Math.round(Math.random() * 10)
+// console.log(randomNum)
+
+// question 5
+
+// var randomNum = Math.round(Math.random() * 10)
+// console.log(randomNum)
+
+// if (randomNum === 1) {
+//     console.log("Tails")
+// } else if (randomNum === 2){
+//     console.log("Heads")
+// }else {
+//     console.log("Try Again!")
+// }
+
+
+// question 6
+
+// var randomNum = Math.random() * 100
+// console.log(randomNum.toFixed())
+
+
+// question 7
+
+// var userData = prompt("Enter your weight");
+// console.log("User Data ==>",userData)
+
+// var weight = parseFloat(userData)
+
+// console.log("user Weight is ==> ",weight,"kg")
+
+
+// question 8
+// var secretNum = Math.round(Math.random() * 10)
+// console.log("Secret Number ===> ",secretNum);
+
+// var userPrompt = +prompt("Enter Number Between 1 to 10")
+
+// if (userPrompt === secretNum) {
+//     console.log("Congrarulations You Win the Number Test!")
+// }else {
+//     console.log("Try Again!")
+// }
+
+
+
+
+// var userData = prompt("Enter Your Weight in Kilograms!")
+// // console.log("User Weigth ==>",userWeigth.split(" "))
+// var flag = "nhi mila"
+// var userWeigth;
+
+// if(userData.split(" ")) {
+// for(var i = 0; i < userData.length; i++){
+//     // console.log(userWeigth[i])
+
+//     if(userData.slice(i, i + 3) > 0){
+//         // console.log("User Weight", userWeigth)
+//         console.log(userData.slice(i, i + 3))
+//         userWeigth = userData
+//         flag = "mil gaya"
+//     }
+// }
+// }
+
+// if (flag == "mil gaya") {
+//     console.log("mil gaya number", userWeigth )
+// } else {
+//     console.log("nhi mila")
+// }
+
+
+
+
+
+// if (userWeigth) {
+
+// }
+
+// console.log("User Weight is", userWeigth , "kg")
+
+
+
+
+
+
+// var arr =[1,2,4,78,9,90,99]
+
+// var min = arr[1];
+
+// for (var i = 0; i < arr.length;i++){
+//     // console.log(arr[i])
+//     if(arr[i] > min) {
+//         // console.log(min)
+//         min = arr[i]
+//     }
+// }
+
+// console.log(min)
+
+
+
+
+
+
 
 
 
@@ -1374,10 +1524,94 @@
 //     alert("Hello")
 // }
 
+// var text = "A paragraph is a group of related sentences focused on a single main idea, serving to organize writing and guide the reader through paragraph the text by breaking it into manageable units single single ."
+
+// console.log(text.replace(/single/g,"new graph"))
+// console.log(text.charAt(text.length -1))
+
+// var flag = false;
+// for (var i = 0; i < text.length; i++){
+//     if(text.slice(i, i + 5) === "group"){
+//         // console.log(text[i])
+//         console.log(text.slice(i, i + 5)=== "group")
+//         flag = true;
+//         break;
+//     }
+// }
+
+// if(text.indexOf("A") !== -1){
+//     console.log(text.indexOf("A"))
+//     console.log("Found")
+// } else {
+//     console.log("not found")
+// }
 
 
+// console.log(text.indexOf("hasan")  )
+
+// console.log(text.lastIndexOf("through"))
+// var flag = false;
+// var user = prompt("enter your word for searching")
+
+// for (var i = 0; i < text.length; i++){
+//     if(text.slice(i, i + user.length) === user) {
+//         flag = true
+//     }
+// }
+
+// if(flag ) {
+//     console.log("milgaya")
+// }else {
+//     console.log("Nhi mila")
+// }
+
+// var fullName = "muhammad"
+
+// console.log(fullName)
+
+// var result = fullName.slice(0,1).toUpperCase() + fullName.slice(1)
+
+// console.log(result)
 
 
+// var fullName = "Muhammad"
+
+// console.log(fullName.length)
+
+
+// var text = "lorem ipsum doloar maha mplas pan macha howadlhbnxs harlo"
+// var flag = false
+// for (var i = 0 ; i < text.length; i++) {
+// //    console.log(text.slice(i, i + 5) === "macha")
+// console.log(text[i])
+
+// if(text.slice(i, i + 5) === "macha"){
+//     flag = true
+//     // console.log(text[i])
+// }
+// }
+
+
+// if (flag) {
+//     console.log(
+//         'Name mil gaya'
+//     )
+// }else {
+//     console.log("Name nhi mila")
+// }
+
+
+// var nameArr = ["Ashraf","Hasan","Muhammad"];
+// nameArr[nameArr.length -1] = "Ashraf"
+// nameArr[0] = "Muhammad"
+// console.log(nameArr)
+
+
+// var str = "Muhammad"
+
+// str += " Hasan"
+
+// console.log(str)
 
 // var edu = prompt("Enter Your Education")
 
