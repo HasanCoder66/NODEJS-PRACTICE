@@ -1289,8 +1289,7 @@
 //     console.log("Password mai kam sy kam 1 lowercase letter daalo")
 //   }
 
-
-// //   uppercase check 
+// //   uppercase check
 //   for (var i = 0; i < AZ.length; i++){
 //         for (var j = 0; j < pass.length; j++) {
 //             // console.log(AZ[i], pass[j])
@@ -1303,7 +1302,7 @@
 // if(!flagUpper) {
 //     console.log("Password mai kam sy kam 1 uppercase letter daalo")
 //   }
-// } 
+// }
 //   if(flagLower && flagUpper) {
 //     console.log("Your password is correct")
 //   }
@@ -1319,8 +1318,6 @@
 // var country = prompt("Enter your Country");
 
 // console.log("user Country is: ",country, "\n", country.charAt(country.length -1))
-
-
 
 // // question 18
 //  var text = "The Quick brown fox jumps over the lazy dog"
@@ -1340,8 +1337,6 @@
 //     //     console.log(newSlice)
 //     // }
 //  }
-
-
 
 // Correct ==>
 //  var text = "Quick brown fox jumps over the lazy dog The"
@@ -1364,9 +1359,6 @@
 //     console.log("nhi mila jani")
 //  }
 
-
-
-
 // Chapter No 26 & 30
 
 // question 1
@@ -1381,7 +1373,6 @@
 // var ceilNum = Math.ceil(posInt)
 // console.log("ceilNum Value ==>", ceilNum);
 
-
 // question 2
 
 // var negInt = Number(prompt("Enter a Negative Integer", -8.0854));
@@ -1394,7 +1385,6 @@
 // var ceilNum = Math.ceil(negInt)
 // console.log("ceilNum Value ==>", ceilNum);
 
-
 // question 3
 // var userNum = +prompt("Enter a Number!")
 // var absVal;
@@ -1405,7 +1395,6 @@
 // }
 
 // console.log(absVal)
-
 
 // question 4
 
@@ -1425,12 +1414,10 @@
 //     console.log("Try Again!")
 // }
 
-
 // question 6
 
 // var randomNum = Math.random() * 100
 // console.log(randomNum.toFixed())
-
 
 // question 7
 
@@ -1440,7 +1427,6 @@
 // var weight = parseFloat(userData)
 
 // console.log("user Weight is ==> ",weight,"kg")
-
 
 // question 8
 // var secretNum = Math.round(Math.random() * 10)
@@ -1454,8 +1440,52 @@
 //     console.log("Try Again!")
 // }
 
+// Chapter No 31 & 34
+
+// question 1
+
+var date = new Date();
+// console.log(date.toString())
+
+// question 2
+// var months = ["jan","fab","mar","apr","may","jun","jul","august","sep","oct","nov","dec"];
+// console.log("Current Month: ",months[date.getMonth()]);
+
+// question 3
+// var days = ["sun","mon","tue","wed","thus","fri","sat",];
+// console.log("Today is:",days[date.getDay()]);
+
+// question 4
+// var days = ["sun","mon","tue","wed","thus","fri","sat",];
+// var today = new Date().getDay();
+
+// if(today === 0 || today === 6){
+// console.log("it's a fun day;")
+// }else {
+//     console.log("working day")
+// }
 
 
+// question 5
+// var date = new Date().getDate()
+// console.log(date)
+
+// if(date > 16 ){
+//     console.log("Last Days of Month")
+// } else {
+//     console.log("First Fifteen Days of the Month")
+// }
+
+
+// question 6
+var d = new Date()
+var currentDate = d;
+var milliSec = d.getTime()
+var minutes = Math.floor(milliSec/(1000 * 60))
+
+console.log("Current Date ==> ", currentDate)
+console.log("Milli Seconds Since Jan 1 1970 ==> ", milliSec)
+console.log("Minutes Since Jan 1 1970 ==> ", minutes)
 
 // var userData = prompt("Enter Your Weight in Kilograms!")
 // // console.log("User Weigth ==>",userWeigth.split(" "))
@@ -1481,20 +1511,11 @@
 //     console.log("nhi mila")
 // }
 
-
-
-
-
 // if (userWeigth) {
 
 // }
 
 // console.log("User Weight is", userWeigth , "kg")
-
-
-
-
-
 
 // var arr =[1,2,4,78,9,90,99]
 
@@ -1509,15 +1530,6 @@
 // }
 
 // console.log(min)
-
-
-
-
-
-
-
-
-
 
 // question 1
 // if(true){
@@ -1546,7 +1558,6 @@
 //     console.log("not found")
 // }
 
-
 // console.log(text.indexOf("hasan")  )
 
 // console.log(text.lastIndexOf("through"))
@@ -1573,11 +1584,9 @@
 
 // console.log(result)
 
-
 // var fullName = "Muhammad"
 
 // console.log(fullName.length)
-
 
 // var text = "lorem ipsum doloar maha mplas pan macha howadlhbnxs harlo"
 // var flag = false
@@ -1591,7 +1600,6 @@
 // }
 // }
 
-
 // if (flag) {
 //     console.log(
 //         'Name mil gaya'
@@ -1600,12 +1608,10 @@
 //     console.log("Name nhi mila")
 // }
 
-
 // var nameArr = ["Ashraf","Hasan","Muhammad"];
 // nameArr[nameArr.length -1] = "Ashraf"
 // nameArr[0] = "Muhammad"
 // console.log(nameArr)
-
 
 // var str = "Muhammad"
 
