@@ -1478,17 +1478,56 @@ var date = new Date();
 
 
 // question 6
-var d = new Date()
-var currentDate = d;
-var milliSec = d.getTime()
-var minutes = Math.floor(milliSec/(1000 * 60))
+// var d = new Date()
+// var currentDate =  d 
+// var since1970 = d.getTime()
+// var since1970Mint = Math.floor(since1970 / (1000 * 60))
 
-console.log("Current Date ==> ", currentDate)
-console.log("Milli Seconds Since Jan 1 1970 ==> ", milliSec)
-console.log("Minutes Since Jan 1 1970 ==> ", minutes)
+// console.log("Current Date ==>",currentDate)
+// console.log("since Milli Seconds 1970 ==>", since1970)
+// console.log("since1970Mint ==>", since1970Mint)
+
+
+// question 7
+
+// var time = new Date().getHours()
+// // var time = 12
+// // console.log(time)
+
+// // console.log(time)
+// if (time > 0 && time <= 11){
+//     console.log("It's AM")
+// }else {
+// console.log("It's PM")
+// }
+
+
+
+
+// question 8
+// var laterDate = new Date("31 Dec 2020")
+// console.log(laterDate)
+
+
+// question 9
+    // var firstRamadan = new Date("Feb 17 2026")
+    // var currentDay = new Date()
+
+    // var actualDaysOfRamadan = firstRamadan - currentDay;
+    // console.log(Math.floor(actualDaysOfRamadan/(1000*60*60*24)))
+    // console.log(firstRamadan);
+
+
+
+
+
+
 
 // var userData = prompt("Enter Your Weight in Kilograms!")
 // // console.log("User Weigth ==>",userWeigth.split(" "))
+
+
+
 // var flag = "nhi mila"
 // var userWeigth;
 
