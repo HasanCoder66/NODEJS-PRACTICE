@@ -1444,7 +1444,7 @@
 
 // question 1
 
-var date = new Date();
+// var date = new Date();
 // console.log(date.toString())
 
 // question 2
@@ -1516,6 +1516,88 @@ var date = new Date();
     // var actualDaysOfRamadan = firstRamadan - currentDay;
     // console.log(Math.floor(actualDaysOfRamadan/(1000*60*60*24)))
     // console.log(firstRamadan);
+
+
+
+
+// question 10
+
+// var refDate = new Date("Jan 1 2020")
+// var currDate = new Date();
+
+// console.log("ref Date ==>",currDate.getTime() )
+// console.log("curr Date ==>",currDate )
+// var diff = currDate.getTime() - refDate.getTime()
+// console.log(diff)
+// var sec = Math.round(diff/ 1000)
+// console.log("Seconds ==>",sec)
+
+// console.log("On Reference Date " + refDate + " " + sec + " seconds had passed since Jan 1 2020")
+
+
+// question 11
+// var currDate = new Date()
+
+// var updatedDate = new Date()
+// updatedDate.setHours(16)    
+
+
+// // console.log(updatedHourDate)
+
+// console.log("Current Date:",currDate, "1 hour ago, it was a", updatedDate)
+
+
+
+// question 12
+// var currDate = new Date() 
+// var updatedDate100yearsBack = new Date("9 sep 1925")
+
+// console.log("Current Date:",currDate)
+// console.log("100 years Back",updatedDate100yearsBack)
+
+
+
+// question 13
+    // var userAge = +prompt("Enter your Age")
+    // console.log(userAge)
+
+
+    // var years = new Date().getFullYear()
+    // // console.log(years)
+    // var userBirthYear = years - userAge
+    // console.log("Your Birth Year is:",userBirthYear)
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // question 14
+    // var monthsArr = ["jan", "fab","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"]
+    // var cName= "Hasan";
+    // var cMonth = monthsArr[new Date().getMonth()]
+    // var nOfUnit = 100;
+    // var cpu = 50;
+    // var netAmountPay = nOfUnit * cpu
+    // var lPaySurChge = 500; 
+    // var afterDueDatePay = netAmountPay + lPaySurChge
+    // console.log("Customer Name ==>",cName)
+    // console.log("Bill month ==>",cMonth)
+    // console.log("No Of Units ==>",nOfUnit)
+    // console.log("charge per unit", cpu)
+    
+    // console.log("Net Amount Payable (With in Due Date)", netAmountPay)
+    // console.log("Late Payment Surcharge: ", lPaySurChge)
+    // console.log("Gross Amount Payable (After due date): ", afterDueDatePay)
+
+
 
 
 
